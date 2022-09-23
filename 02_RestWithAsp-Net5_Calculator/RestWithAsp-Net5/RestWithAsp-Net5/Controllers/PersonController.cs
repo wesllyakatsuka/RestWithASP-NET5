@@ -9,11 +9,11 @@ namespace RestWithAsp_Net5.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CalculatorController : ControllerBase
+    public class PersonController : ControllerBase
     {
 
-        private readonly ILogger<CalculatorController> _logger;
-        public CalculatorController(ILogger<CalculatorController> logger)
+        private readonly ILogger<PersonController> _logger;
+        public PersonController(ILogger<PersonController> logger)
         {
             _logger = logger;
         }
