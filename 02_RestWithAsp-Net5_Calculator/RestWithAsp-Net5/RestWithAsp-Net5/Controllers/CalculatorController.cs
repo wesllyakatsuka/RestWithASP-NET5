@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RestWithASPNETUdemy.Controllers
+namespace RestWithAsp_Net5.Controllers
 {
     [ApiController]
     [Route("[controller]")]
