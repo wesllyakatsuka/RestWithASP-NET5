@@ -43,9 +43,9 @@ namespace RestWithASPNETUdemy.Services.Implementations
             return new Person
             {
                 Id = IncrementAndGet(),
-                FirstName = "Leandro",
-                LastName = "Costa",
-                Address = "Uberlandia - Minas Gerais - Brasil",
+                FirstName = "Weslly",
+                LastName = "Akatuka de Oliveira",
+                Address = "Sorocaba - São Paulo - Brasil",
                 Gender = "Male"
             };
         }
